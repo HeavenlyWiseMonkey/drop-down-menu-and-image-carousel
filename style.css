@@ -1,0 +1,41 @@
+.dropDownMenu, .pictureFrame {
+    border: 1px solid black;
+}
+
+.visible, .Active {
+    visibility: visible;
+}
+
+.hidden, .Inactive {
+    visibility: hidden;
+}
+
+.pictureFrame {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.slide {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dark {
+    background-color: black;
+}
+
+.carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down menu and image carousel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="dropDownMenu">Drop down menu</div>
+    <div class="dropDown hidden">
+        <p>option 1</p>
+        <p>option 2</p>
+        <p>option 3</p>
+        <p>option 4</p>
+        <p>option 5</p>
+    </div>
+
+    <div class="pictureFrame">
+        <div class="slide">
+            <div class="carousel Active">
+                <img src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="carousel Inactive">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo-warga-200x200.png" alt="">
+            </div>
+            <div class="carousel Inactive">
+                <img src="https://www.governmentjobs.com/AgencyPages/alantam/agencyImages/download/chrome-logo-200x200.png" alt="">
+            </div>
+            <div class="carousel Inactive">
+                <img src="https://cdn3.emoji.gg/emojis/6733-firefox.png" alt="">
+            </div>
+            <div class="carousel Inactive">
+                <img src="https://www.gimmesomeoven.com/wp-content/uploads/2020/05/How-To-Make-Sushi-Maki-Rolls-4-Closeup-200x200.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <span class="dot dark"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <button class="forwardButton">Forward</button>
+    <button class="reverseButton">Reverse</button>
+</body>
+</html>
